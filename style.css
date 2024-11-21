@@ -22,7 +22,7 @@ ul.nav-list {
 
 .nav-list li {
     margin-right: 80px;
-    
+    padding: 20px 0 0 0;
 }
 .nav-list a {
     text-decoration: none;
@@ -40,7 +40,9 @@ ul.nav-list {
 
   section {
     margin:20px;
+    display: flex;
   }
+
   .big-pic a {
     display: flex;
     justify-items: center;
@@ -69,6 +71,7 @@ ul.nav-list {
 
 p {
     font-size: 36px;
+    
 }
 
 blockquote {
@@ -94,13 +97,6 @@ footer {
     margin-bottom: 20px; /* Space between paragraph and form */
 }
 
-blockquote {
-    font-size: 24px;
-    overflow: auto;
-    height: 300px;
-    display: flex;
-}
-
 /* Styling for the submit button */
 .contact-section {
     padding: 20px 20px;
@@ -113,9 +109,7 @@ blockquote {
     cursor: pointer;
     transition: background-color 0.3s; /* Smooth hover effect */
     margin-top: 400px; /* Adds space between paragraph and button */
-    display: flex;
-    
-    
+    display: flex; 
 }
 
 .contact-section:hover {
