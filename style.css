@@ -1,0 +1,123 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+
+body  {
+    justify-items: center;
+}
+
+nav {
+    background-color: lightgray;
+    border: solid 1px black;
+}
+
+ul.nav-list {
+    display: flex;
+    list-style: none;
+    padding: 20px;
+    margin: 0px;
+    
+}
+
+.nav-list li {
+    margin-right: 80px;
+    
+}
+.nav-list a {
+    text-decoration: none;
+    color: #a921f9;
+    font-size: 24px;
+  }
+
+  a.list-logo {
+    margin-right: 80px;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  section {
+    margin:20px;
+  }
+  .big-pic a {
+    display: flex;
+    justify-items: center;
+  }
+
+  .three-pic {
+    display: flex; /* Enables Flexbox */
+    gap: 100px; /* Adds space between images */
+    justify-content: center; /* Optional: centers images horizontally */
+}
+
+.p-pic {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.p-pic img {
+    max-width: 100%;
+    height: auto;
+}
+
+.p-pic .text {
+    max-width: 600px;
+}
+
+p {
+    font-size: 36px;
+}
+
+blockquote {
+    font-size: 24px;
+    overflow: auto;
+    height: 300px;
+    display: flex;
+}
+
+footer {
+    background-color: lightgray;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    width: 100%; /* Ensures it spans the full page width */
+    border-top: 2px solid #cccccc41; /* Optional: Adds a border at the top */
+}
+
+
+/* Paragraph and blockquote styling */
+.text {
+    font-size: 36px;
+    margin-bottom: 20px; /* Space between paragraph and form */
+}
+
+blockquote {
+    font-size: 24px;
+    overflow: auto;
+    height: 300px;
+    display: flex;
+}
+
+/* Styling for the submit button */
+.contact-section {
+    padding: 20px 20px;
+    background-color: #a921f9; /* Button color */
+    color: white; /* Text color */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth hover effect */
+    margin-top: 400px; /* Adds space between paragraph and button */
+    display: flex;
+    
+    
+}
+
+.contact-section:hover {
+    background-color: #8000c8; /* Darker shade on hover */
+}
