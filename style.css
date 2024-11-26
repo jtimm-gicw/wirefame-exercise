@@ -5,11 +5,20 @@
 
 body  {
     justify-items: center;
+    margin:0;
+    
 }
 
+div {
+    width: 100%;
+
+}
 nav {
     background-color: lightgray;
-    border: solid 1px black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
 }
 
 ul.nav-list {
